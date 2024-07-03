@@ -35,9 +35,9 @@
             margin-right: 10px;
         }
 
-.footer-text {
+    .footer-text {
 		background-color: #faf6f6;
-		padding: 20px;
+		padding: 5px;
 		text-align: center;
 		border: 1p;
 		color: #393636;
@@ -46,8 +46,6 @@
             flex:1;
             text-align: left;
         }
-
-
         nav a {
             text-decoration: none;
             font-family: 'Franklin Gothic Medium';
@@ -63,6 +61,9 @@
 
         nav a.contact:active {
             background-color: #117b4b;
+        }
+        nav a.sitename:hover{
+            background-color: #faf6f6;
         }
         .container {
 		max-width: 1200px;
@@ -81,15 +82,15 @@
     <header>
         <nav>
                 <img src="pexels-pixabay-46798.jpg" alt="Logo" class="logo">
-                <a href="assignment.html" class="sitename"><p>Football Suplex</p></a>
+                <a href="assignment.html" class="sitename"><p style="font-size: x-large;">Football Suplex</p></a>
        </nav>
     </header>
     <div class="container">
         <div class="container" style="text-align: center; background-color: rgb(143, 239, 74);">
-            WELCOME TO THE FOOTBALL SUPLEX
+            <b style="font-size: xx-large;">WELCOME TO THE FOOTBALL SUPLEX</b>
         </div><br>
         <div>
-            Submit your form and be a part of our football suplex community where you can post your game progress and get upcoming infos.
+            <p style="font-size: larger;">Submit your form and be a part of our football suplex community where you can post your game progress and get upcoming infos.</p>
         </div><br>
         <div>
             ACCOUNT DETAILS
@@ -153,7 +154,8 @@
       function submitForm() {
         window.alert("Form Submitted");
       }          
-    </script>        
+    </script>  
+    <div style="height: 300px;"></div>      
     <div class="footer-text">
 		<p>All rights are reversed</p>
 	</div>
